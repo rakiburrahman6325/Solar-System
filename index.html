@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Project</title>
+  </head>
+
+  <body class="w-full h-full bg-gray-900 font-sans">
+    <div class="w-full h-full relative text-white p-8 overflow-hidden">
+      <nav
+        class="flex justify-between h-10 mb-14 text-white py-8 bg-gray-600 backdrop-filter bg-opacity-10 backdrop-blur-2xl px-10 items-center rounded-full"
+      >
+        <h1 class="font-medium text-2xl"><a href="./index.html">LOGO</a></h1>
+        <ul class="flex justify-between">
+          <li>
+            <a
+              class="text-lg mr-8 font-medium hover:text-sky-500 transition-colors duration-300"
+              href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg mr-8 ml-8 font-medium hover:text-sky-500 transition-colors duration-300"
+              href="./index.html"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg mr-8 ml-8 font-medium hover:text-sky-500 transition-colors duration-300"
+              href="./index.html"
+              >Facts</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg ml-8 font-medium hover:text-sky-500 transition-colors duration-300"
+              href="./index.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <button
+          class="bg-gradient-to-r from-sky-500 to-indigo-500 px-3 py-2 rounded-full hover:shadow-2xl active:opacity-85 duration-300"
+          type="submit"
+        >
+          Get Started
+          <i class="ml-2 fa-solid fa-arrow-right"></i>
+        </button>
+      </nav>
+      <div
+        class="h-48 w-48 rounded-full -top-20 -left-20 -rotate-6 shadow-2xl shadow-sky-500 -z-10 absolute bg-gradient-to-r from-sky-500 to-indigo-500"
+      ></div>
+    </div>
+    <div class="flex justify-evenly items-center">
+      <div class="h-96 w-3/6 text-white leading-6 py-10">
+        <h1 class="text-4xl text-sky-500">Solar System</h1>
+        <p class="mt-4">
+          The Solar System is the gravitationally bound system of the Sun and
+          the objects that orbit it. It formed about 4.6 billion years ago when a
+          dense region of a molecular cloud collapsed, forming the Sun and a
+          protoplanetary disc. Our solar system includes the Sun, eight planets,
+          five officially named dwarf planets, hundreds of moons, and thousands
+          of asteroids and comets.
+        </p>
+        <p>
+          Our solar system is located in the Milky Way, a barred spiral galaxy
+          with two major arms, and two minor arms. Our Sun is in a small,
+          partial arm of the Milky Way called the Orion Arm, or Orion Spur,
+          between the Sagittarius and Perseus arms. Our solar system orbits the
+          center of the galaxy at about 515,000 mph (828,000 kph). It takes
+          about 230 million years to complete one orbit around the galactic
+          center.
+        </p>
+      </div>
+      <div class="h-full w-2/5">
+        <video autoplay loop muted class="rounded-2xl">
+          <source src="Solar_System.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </body>
+</html>
